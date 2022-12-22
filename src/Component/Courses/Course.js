@@ -3,6 +3,7 @@ import { useLoaderData } from 'react-router-dom';
 import dd from '../../asset/dd.pdf'
 
 const Course = () => {
+    /* add some feature */
     const data = useLoaderData()
     const { id, name,  img ,description} = data;
     console.log(data);
